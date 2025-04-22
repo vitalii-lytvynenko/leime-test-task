@@ -16,7 +16,6 @@ export const MemeList: React.FC<Props> = ({ memes }) => {
               alt={item.title}
               className="h-[200px] object-contain scale-125 transition-transform duration-1000 ease-in-out hover:scale-100"
               radius="lg"
-              shadow="sm"
               src={item.imageUrl}
               width="100%"
             />
